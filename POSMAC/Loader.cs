@@ -25,5 +25,10 @@ namespace POSMAC
             MessageBox.Show("load sucess asdasdasd");
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
