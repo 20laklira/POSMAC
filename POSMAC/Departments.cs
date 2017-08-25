@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace POSMAC
 {
-    public partial class Categories : MetroFramework.Forms.MetroForm
+    public partial class Departments : MetroFramework.Forms.MetroForm
     {
-        public Categories()
+        public Departments()
         {
             InitializeComponent();
         }

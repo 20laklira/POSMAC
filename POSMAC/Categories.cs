@@ -16,5 +16,10 @@ namespace POSMAC
         {
             InitializeComponent();
         }
+
+        private void Categories_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace POSMAC
 {
-    partial class Categories
+    partial class Departments
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Categories));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Departments));
             this.depatsave = new System.Windows.Forms.Button();
             this.deptgroupBox1 = new System.Windows.Forms.GroupBox();
             this.deslabel2 = new System.Windows.Forms.Label();
@@ -143,7 +143,7 @@
             this.Controls.Add(this.depyGridView1);
             this.Controls.Add(this.deptgroupBox1);
             this.KeyPreview = true;
-            this.Name = "Categories";
+            this.Name = "Departments";
             this.Resizable = false;
             this.Text = "Departments";
             this.Theme = MetroFramework.MetroThemeStyle.Light;
