@@ -29,5 +29,10 @@ namespace POSMAC
             password = textBoxPass.Text;
            
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

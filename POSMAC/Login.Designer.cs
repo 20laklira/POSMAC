@@ -36,37 +36,23 @@
             this.textBoxPass = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.Loginbtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonLogin
             // 
-            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button1.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(153, 202);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(152, 55);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Login";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonLogin.Location = new System.Drawing.Point(0, 0);
+            this.buttonLogin.Name = "buttonLogin";
+            this.buttonLogin.Size = new System.Drawing.Size(75, 23);
+            this.buttonLogin.TabIndex = 0;
             // 
             // buttonCancel
             // 
-            this.button2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button2.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(345, 202);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 55);
-            this.button2.TabIndex = 1;
-            this.button2.Text = " Cancel";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = false;
+            this.buttonCancel.Location = new System.Drawing.Point(0, 0);
+            this.buttonCancel.Name = "buttonCancel";
+            this.buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this.buttonCancel.TabIndex = 0;
             // 
             // label1
             // 
@@ -115,26 +101,55 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "iMac POS";
             // 
+            // Loginbtn
+            // 
+            this.Loginbtn.BackColor = System.Drawing.Color.DodgerBlue;
+            this.Loginbtn.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Loginbtn.ForeColor = System.Drawing.Color.White;
+            this.Loginbtn.Image = global::POSMAC.Properties.Resources.ic_lock_white_24dp_2x;
+            this.Loginbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Loginbtn.Location = new System.Drawing.Point(153, 191);
+            this.Loginbtn.Name = "Loginbtn";
+            this.Loginbtn.Size = new System.Drawing.Size(147, 55);
+            this.Loginbtn.TabIndex = 7;
+            this.Loginbtn.Text = "Login";
+            this.Loginbtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Loginbtn.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button1.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = global::POSMAC.Properties.Resources.ic_save_white_24dp_2x1;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(330, 191);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(147, 55);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Save";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.CancelButton = this.button2;
             this.ClientSize = new System.Drawing.Size(532, 319);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Loginbtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxPass);
             this.Controls.Add(this.textBoxUserName);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroForm.MetroFormShadowType.DropShadow;
             this.Style = MetroFramework.MetroColorStyle.Blue;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,5 +164,7 @@
         private System.Windows.Forms.TextBox textBoxPass;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button Loginbtn;
+        private System.Windows.Forms.Button button1;
     }
 }
