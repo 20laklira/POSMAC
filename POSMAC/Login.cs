@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace POSMAC
 {
-    public partial class Login : Form
+    public partial class Login : MetroFramework.Forms.MetroForm
     {
         public Login()
         {
