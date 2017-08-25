@@ -29,31 +29,31 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Categories));
-            this.button1 = new System.Windows.Forms.Button();
+            this.depatsave = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.depatcancel = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.depyGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.depyGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button1.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::POSMAC.Properties.Resources.ic_save_white_24dp_2x1;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(664, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 55);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = false;
+            this.depatsave.BackColor = System.Drawing.Color.DodgerBlue;
+            this.depatsave.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.depatsave.ForeColor = System.Drawing.Color.White;
+            this.depatsave.Image = global::POSMAC.Properties.Resources.ic_save_white_24dp_2x1;
+            this.depatsave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.depatsave.Location = new System.Drawing.Point(664, 19);
+            this.depatsave.Name = "button1";
+            this.depatsave.Size = new System.Drawing.Size(163, 55);
+            this.depatsave.TabIndex = 1;
+            this.depatsave.Text = "Save";
+            this.depatsave.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
@@ -61,8 +61,8 @@
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.depatcancel);
+            this.groupBox1.Controls.Add(this.depatsave);
             this.groupBox1.Location = new System.Drawing.Point(23, 63);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(833, 158);
@@ -71,19 +71,19 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(664, 80);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(163, 55);
-            this.button2.TabIndex = 2;
-            this.button2.Text = " Cancel";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = false;
+            this.depatcancel.BackColor = System.Drawing.Color.DodgerBlue;
+            this.depatcancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.depatcancel.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.depatcancel.ForeColor = System.Drawing.Color.White;
+            this.depatcancel.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.depatcancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.depatcancel.Location = new System.Drawing.Point(664, 80);
+            this.depatcancel.Name = "button2";
+            this.depatcancel.Size = new System.Drawing.Size(163, 55);
+            this.depatcancel.TabIndex = 2;
+            this.depatcancel.Text = " Cancel";
+            this.depatcancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.depatcancel.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -125,14 +125,14 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridView1.Location = new System.Drawing.Point(20, 247);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(839, 181);
-            this.dataGridView1.TabIndex = 3;
+            this.depyGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.depyGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.depyGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.depyGridView1.GridColor = System.Drawing.SystemColors.ActiveCaption;
+            this.depyGridView1.Location = new System.Drawing.Point(20, 247);
+            this.depyGridView1.Name = "dataGridView1";
+            this.depyGridView1.Size = new System.Drawing.Size(839, 181);
+            this.depyGridView1.TabIndex = 3;
             // 
             // Categories
             // 
@@ -140,7 +140,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = MetroFramework.Drawing.MetroBorderStyle.FixedSingle;
             this.ClientSize = new System.Drawing.Size(879, 448);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.depyGridView1);
             this.Controls.Add(this.groupBox1);
             this.KeyPreview = true;
             this.Name = "Categories";
@@ -149,7 +149,7 @@
             this.Theme = MetroFramework.MetroThemeStyle.Light;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.depyGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
