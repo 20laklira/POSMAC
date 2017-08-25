@@ -115,6 +115,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="IMG\desktop.ini" />
     <None Include="IMG\Thumbs.db" />
@@ -152,6 +153,7 @@
     <Content Include="IMG\user-clipart-business-user-clipart-1.jpg" />
     <Content Include="IMG\welcome.jpg" />
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\ic_save_white_24dp_2x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
