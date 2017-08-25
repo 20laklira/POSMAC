@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace POSMAC
 {
-    public partial class Home : Form
+    public partial class Home : MetroFramework.Forms.MetroForm
     {
         public Home()
         {
             InitializeComponent();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
