@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Categories));
             this.depatsave = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.deptgroupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.deptcancel = new System.Windows.Forms.Button();
             this.depyGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox1.SuspendLayout();
+            this.deptgroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.depyGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,19 +55,19 @@
             this.depatsave.Text = "Save";
             this.depatsave.UseVisualStyleBackColor = false;
             // 
-            // groupBox1
+            // deptgroupBox1
             // 
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.deptcancel);
-            this.groupBox1.Controls.Add(this.depatsave);
-            this.groupBox1.Location = new System.Drawing.Point(23, 63);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(833, 158);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
+            this.deptgroupBox1.Controls.Add(this.label2);
+            this.deptgroupBox1.Controls.Add(this.textBox2);
+            this.deptgroupBox1.Controls.Add(this.textBox1);
+            this.deptgroupBox1.Controls.Add(this.label1);
+            this.deptgroupBox1.Controls.Add(this.deptcancel);
+            this.deptgroupBox1.Controls.Add(this.depatsave);
+            this.deptgroupBox1.Location = new System.Drawing.Point(23, 63);
+            this.deptgroupBox1.Name = "deptgroupBox1";
+            this.deptgroupBox1.Size = new System.Drawing.Size(833, 158);
+            this.deptgroupBox1.TabIndex = 2;
+            this.deptgroupBox1.TabStop = false;
             // 
             // label2
             // 
@@ -141,14 +141,14 @@
             this.BorderStyle = MetroFramework.Drawing.MetroBorderStyle.FixedSingle;
             this.ClientSize = new System.Drawing.Size(879, 448);
             this.Controls.Add(this.depyGridView1);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.deptgroupBox1);
             this.KeyPreview = true;
             this.Name = "Categories";
             this.Resizable = false;
             this.Text = "Departments";
             this.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.deptgroupBox1.ResumeLayout(false);
+            this.deptgroupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.depyGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -157,7 +157,7 @@
         #endregion
 
         private System.Windows.Forms.Button depatsave;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox deptgroupBox1;
         private System.Windows.Forms.Button deptcancel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
