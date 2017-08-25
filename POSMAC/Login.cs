@@ -15,6 +15,19 @@ namespace POSMAC
         public Login()
         {
             InitializeComponent();
+            buttonLogin.Click += ButtonLogin_Click;
+            
+        }
+
+        private void ButtonLogin_Click(object sender, EventArgs e)
+        {
+
+            string username, password;
+
+
+            username = textBoxUserName.Text;
+            password = textBoxPass.Text;
+           
         }
     }
 }
