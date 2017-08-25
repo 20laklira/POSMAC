@@ -43,7 +43,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-
+           
             // 
             // button2
             // 
@@ -71,7 +71,6 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
-
             // 
             // button5
             // 

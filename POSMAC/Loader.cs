@@ -22,7 +22,7 @@ namespace POSMAC
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("load sucess asdasdasd");
+            MessageBox.Show("load sucess Success");
             
         }
 
