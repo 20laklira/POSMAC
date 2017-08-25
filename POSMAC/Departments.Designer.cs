@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Categories));
             this.depatsave = new System.Windows.Forms.Button();
             this.deptgroupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.deslabel2 = new System.Windows.Forms.Label();
+            this.deptdesc = new System.Windows.Forms.TextBox();
+            this.deptname = new System.Windows.Forms.TextBox();
+            this.deslabel1 = new System.Windows.Forms.Label();
             this.deptcancel = new System.Windows.Forms.Button();
             this.depyGridView1 = new System.Windows.Forms.DataGridView();
             this.deptgroupBox1.SuspendLayout();
@@ -57,10 +57,10 @@
             // 
             // deptgroupBox1
             // 
-            this.deptgroupBox1.Controls.Add(this.label2);
-            this.deptgroupBox1.Controls.Add(this.textBox2);
-            this.deptgroupBox1.Controls.Add(this.textBox1);
-            this.deptgroupBox1.Controls.Add(this.label1);
+            this.deptgroupBox1.Controls.Add(this.deslabel2);
+            this.deptgroupBox1.Controls.Add(this.deptdesc);
+            this.deptgroupBox1.Controls.Add(this.deptname);
+            this.deptgroupBox1.Controls.Add(this.deslabel1);
             this.deptgroupBox1.Controls.Add(this.deptcancel);
             this.deptgroupBox1.Controls.Add(this.depatsave);
             this.deptgroupBox1.Location = new System.Drawing.Point(23, 63);
@@ -69,43 +69,43 @@
             this.deptgroupBox1.TabIndex = 2;
             this.deptgroupBox1.TabStop = false;
             // 
-            // label2
+            // deslabel2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(17, 93);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 31);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Description";
+            this.deslabel2.AutoSize = true;
+            this.deslabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deslabel2.Location = new System.Drawing.Point(17, 93);
+            this.deslabel2.Name = "deslabel2";
+            this.deslabel2.Size = new System.Drawing.Size(151, 31);
+            this.deslabel2.TabIndex = 9;
+            this.deslabel2.Text = "Description";
             // 
-            // textBox2
+            // deptdesc
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(174, 89);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(441, 38);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.Text = "ss";
+            this.deptdesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deptdesc.Location = new System.Drawing.Point(174, 89);
+            this.deptdesc.Name = "deptdesc";
+            this.deptdesc.Size = new System.Drawing.Size(441, 38);
+            this.deptdesc.TabIndex = 8;
+            this.deptdesc.Text = "ss";
             // 
-            // textBox1
+            // deptname
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(174, 36);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(441, 38);
-            this.textBox1.TabIndex = 7;
-            this.textBox1.Text = "ss";
+            this.deptname.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deptname.Location = new System.Drawing.Point(174, 36);
+            this.deptname.Name = "deptname";
+            this.deptname.Size = new System.Drawing.Size(441, 38);
+            this.deptname.TabIndex = 7;
+            this.deptname.Text = "ss";
             // 
-            // label1
+            // deslabel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(17, 39);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 31);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Name";
+            this.deslabel1.AutoSize = true;
+            this.deslabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deslabel1.Location = new System.Drawing.Point(17, 39);
+            this.deslabel1.Name = "deslabel1";
+            this.deslabel1.Size = new System.Drawing.Size(86, 31);
+            this.deslabel1.TabIndex = 6;
+            this.deslabel1.Text = "Name";
             // 
             // deptcancel
             // 
@@ -159,10 +159,10 @@
         private System.Windows.Forms.Button depatsave;
         private System.Windows.Forms.GroupBox deptgroupBox1;
         private System.Windows.Forms.Button deptcancel;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label deslabel2;
+        private System.Windows.Forms.TextBox deptdesc;
+        private System.Windows.Forms.TextBox deptname;
+        private System.Windows.Forms.Label deslabel1;
         private System.Windows.Forms.DataGridView depyGridView1;
     }
 }
