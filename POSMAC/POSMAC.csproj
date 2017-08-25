@@ -54,9 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Categories.cs" />
-    <Compile Include="Categories.Designer.cs">
-      <DependentUpon>Categories.cs</DependentUpon>
+    <Compile Include="Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Category.Designer.cs">
+      <DependentUpon>Category.cs</DependentUpon>
     </Compile>
     <Compile Include="Departments.cs">
       <SubType>Form</SubType>
@@ -104,11 +106,14 @@
       <DependentUpon>test.cs</DependentUpon>
     </Compile>
     <Compile Include="testui.cs" />
-    <EmbeddedResource Include="Categories.resx">
-      <DependentUpon>Categories.cs</DependentUpon>
+    <EmbeddedResource Include="Category.resx">
+      <DependentUpon>Category.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Departments.resx">
       <DependentUpon>Departments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loader.resx">
       <DependentUpon>Loader.cs</DependentUpon>

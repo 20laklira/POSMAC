@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace POSMAC
 {
-    public partial class Categories : MetroFramework.Forms.MetroForm
+    public partial class Category : MetroFramework.Forms.MetroForm
     {
-        public Categories()
+        public Category()
         {
             InitializeComponent();
         }
 
-        private void Categories_Load(object sender, EventArgs e)
+        private void Category_Load(object sender, EventArgs e)
         {
 
         }
