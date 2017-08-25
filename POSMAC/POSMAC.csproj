@@ -32,6 +32,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroFramework.Design.1.2.0.3\lib\net40\MetroFramework.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroFramework.Fonts.1.2.0.3\lib\net40\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Categories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories.Designer.cs">
+      <DependentUpon>Categories.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +100,9 @@
       <DependentUpon>test.cs</DependentUpon>
     </Compile>
     <Compile Include="testui.cs" />
+    <EmbeddedResource Include="Categories.resx">
+      <DependentUpon>Categories.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Loader.resx">
       <DependentUpon>Loader.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +118,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="IMG\desktop.ini" />
+    <None Include="IMG\Thumbs.db" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -111,6 +133,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IMG\Cashier 2.png" />
+    <Content Include="IMG\cash_register-512.png" />
+    <Content Include="IMG\close.png" />
+    <Content Include="IMG\delivery-truck.png" />
+    <Content Include="IMG\home.png" />
+    <Content Include="IMG\ic_cancel_white_24dp_2x.png" />
+    <Content Include="IMG\ic_home_white_24dp_2x.png" />
+    <Content Include="IMG\ic_lock_white_24deep_2x.png" />
+    <Content Include="IMG\ic_lock_white_24dp_1x.png" />
+    <Content Include="IMG\ic_lock_white_24dp_2x.png" />
+    <Content Include="IMG\ic_save_white_24dp_2x.png" />
+    <Content Include="IMG\menu-512.png" />
+    <Content Include="IMG\online-store-2.png" />
+    <Content Include="IMG\pos.jpg" />
+    <Content Include="IMG\pos1.jpg" />
+    <Content Include="IMG\pos2.jpg" />
+    <Content Include="IMG\user-clipart-business-user-clipart-1.jpg" />
+    <Content Include="IMG\welcome.jpg" />
+    <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
