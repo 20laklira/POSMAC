@@ -35,7 +35,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.depatcancel = new System.Windows.Forms.Button();
+            this.deptcancel = new System.Windows.Forms.Button();
             this.depyGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.depyGridView1)).BeginInit();
@@ -61,7 +61,7 @@
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.depatcancel);
+            this.groupBox1.Controls.Add(this.deptcancel);
             this.groupBox1.Controls.Add(this.depatsave);
             this.groupBox1.Location = new System.Drawing.Point(23, 63);
             this.groupBox1.Name = "groupBox1";
@@ -107,21 +107,21 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Name";
             // 
-            // depatcancel
+            // deptcancel
             // 
-            this.depatcancel.BackColor = System.Drawing.Color.DodgerBlue;
-            this.depatcancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.depatcancel.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.depatcancel.ForeColor = System.Drawing.Color.White;
-            this.depatcancel.Image = ((System.Drawing.Image)(resources.GetObject("depatcancel.Image")));
-            this.depatcancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.depatcancel.Location = new System.Drawing.Point(664, 80);
-            this.depatcancel.Name = "depatcancel";
-            this.depatcancel.Size = new System.Drawing.Size(163, 55);
-            this.depatcancel.TabIndex = 2;
-            this.depatcancel.Text = " Cancel";
-            this.depatcancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.depatcancel.UseVisualStyleBackColor = false;
+            this.deptcancel.BackColor = System.Drawing.Color.DodgerBlue;
+            this.deptcancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.deptcancel.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deptcancel.ForeColor = System.Drawing.Color.White;
+            this.deptcancel.Image = ((System.Drawing.Image)(resources.GetObject("deptcancel.Image")));
+            this.deptcancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.deptcancel.Location = new System.Drawing.Point(664, 80);
+            this.deptcancel.Name = "deptcancel";
+            this.deptcancel.Size = new System.Drawing.Size(163, 55);
+            this.deptcancel.TabIndex = 2;
+            this.deptcancel.Text = " Cancel";
+            this.deptcancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.deptcancel.UseVisualStyleBackColor = false;
             // 
             // depyGridView1
             // 
@@ -158,7 +158,7 @@
 
         private System.Windows.Forms.Button depatsave;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button depatcancel;
+        private System.Windows.Forms.Button deptcancel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
