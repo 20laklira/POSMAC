@@ -104,7 +104,7 @@
             // Loginbtn
             // 
             this.Loginbtn.BackColor = System.Drawing.Color.DodgerBlue;
-            this.Loginbtn.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Loginbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Loginbtn.ForeColor = System.Drawing.Color.White;
             this.Loginbtn.Image = global::POSMAC.Properties.Resources.ic_lock_white_24dp_2x;
             this.Loginbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -115,11 +115,12 @@
             this.Loginbtn.Text = "Login";
             this.Loginbtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Loginbtn.UseVisualStyleBackColor = false;
+            this.Loginbtn.Click += new System.EventHandler(this.Loginbtn_Click);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button1.Font = new System.Drawing.Font("Montserrat Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::POSMAC.Properties.Resources.ic_save_white_24dp_2x1;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;

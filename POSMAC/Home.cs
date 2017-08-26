@@ -24,7 +24,7 @@ namespace POSMAC
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Sale s = new Sale(); s.Show();
+           
         }
     }
 }
